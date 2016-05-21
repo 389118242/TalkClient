@@ -122,7 +122,7 @@ public class MyClient extends Thread implements ActionListener {
 				}
 			}
 		});
-		west.add(jlist, BorderLayout.CENTER);
+		west.add(new JScrollPane(jlist), BorderLayout.CENTER);
 		jf.getContentPane().add(west, BorderLayout.WEST);
 
 		JPanel foot = new JPanel();
